@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "simpleeconomy",
+  "version": "1.0.0",
+  "name": "SimpleEconomy",
+  "description": "Простой мод экономики с командами /balance и /pay",
+  "authors": [
+    "ChatGPT"
+  ],
+  "entrypoints": {
+    "main": [
+      "com.example.simpleeconomy.SimpleEconomy"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.1"
+  }
+}
